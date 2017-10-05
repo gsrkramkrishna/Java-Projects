@@ -1,0 +1,3 @@
+Data Structures:26
+Science:25
+English:25
