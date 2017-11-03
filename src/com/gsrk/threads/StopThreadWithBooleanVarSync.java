@@ -6,7 +6,7 @@ public class StopThreadWithBooleanVarSync {
 		
 		class StoppableThread extends Thread{
 			
-			private boolean stopped;
+			private volatile boolean stopped;
 			
 			public void run(){
 				synchronized (this) {

@@ -33,7 +33,7 @@ public class StopThreadWithBooleanVar {
 		StoppableThread st = new StoppableThread();
 		st.start();
 		try{
-			Thread.sleep(5000);
+			Thread.sleep(1000);
 		}catch(InterruptedException ie){
 			ie.printStackTrace();
 		}
