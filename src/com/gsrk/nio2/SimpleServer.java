@@ -9,7 +9,8 @@ import java.net.Socket;
  * This program not supports more than one telenet at a time.
  * Here it's single thread only responding all telnet connections.
  * if we open more than one telenet connections, this program response for only one telnet 
-	and other telnent connections are blocked. 
+	and other telnent connections are blocked.
+ * Single Thread Server.
 */
 public class SimpleServer {
 

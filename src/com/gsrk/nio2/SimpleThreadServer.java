@@ -3,6 +3,7 @@ package com.gsrk.nio2;
  * To open a telenet connection - telnet localhost 8080
  * This program supports more than one telenet at a time.
  * Each telnet/request connection is handled by new thread.
+ * It's a multi threaded server
 */
 import java.io.IOException;
 import java.net.ServerSocket;
