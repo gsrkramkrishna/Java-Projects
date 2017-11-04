@@ -1,5 +1,5 @@
-package com.gsrk.nio2;
-/* Pleas intall telnet if it's not installed. It's Required for test.
+package com.gsrk.net;
+/* Pleas install telnet if it's not installed. It's Required for test.
  * To open a telenet connection - telnet localhost 8080
  * This program supports more than one telenet at a time.
  * Each telnet/request connection is handled by new thread.

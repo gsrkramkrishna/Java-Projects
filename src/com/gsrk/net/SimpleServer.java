@@ -1,10 +1,10 @@
-package com.gsrk.nio2;
+package com.gsrk.net;
 
 import java.io.IOException;
 import java.net.ServerSocket;
 import java.net.Socket;
 
-/* Pleas intall telnet if it's not installed. It's Required for test.
+/* Pleas install telnet if it's not installed. It's Required for test.
  * To open a telenet connection - telnet localhost 8080
  * This program not supports more than one telenet at a time.
  * Here it's single thread only responding all telnet connections.
